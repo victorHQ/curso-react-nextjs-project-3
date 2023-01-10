@@ -13,7 +13,7 @@ describe('<NavLinks />', () => {
 
   it('should not render links', () => {
     renderTheme(<NavLinks />);
-    expect(screen.queryAllByText(/link/i)).toHaveLength(0);
+    expect(screen.queryAllByText(/links/i)).toHaveLength(0);
   });
 
   it('should render links', () => {
